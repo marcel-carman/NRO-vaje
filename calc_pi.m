@@ -17,11 +17,7 @@ plot(a,b,'black','LineWidth',5)
 hold on
 plot(v_krog(1,:),v_krog(2,:), 'y.', izven(1,:),izven(2,:), 'b.')
 axis equal
-xlabel('x')
-ylabel('y')
-title('Naključne točke na krožnici')
-legend('Znotraj kroga','Zunaj kroga','Krožnica')
-hold off
+
 
 function [pi_aproks, napaka] = area_pi(znotraj_kroga, n)
 pi_aproks = 4 * size(znotraj_kroga, 2) / n;
