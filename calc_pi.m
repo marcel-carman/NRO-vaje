@@ -19,7 +19,7 @@ plot(v_krog(1,:),v_krog(2,:), 'y.', izven(1,:),izven(2,:), 'b.')
 xlabel('X-os')
 ylabel('Y-os')
 title('Naključno generirane točke v enotski krožnici oz. kvadratu')
-legend('Znotraj kroga','Zunaj kroga','Krožnica')
+legend('Krožnica','Znotraj kroga','Zunaj kroga')
 axis equal
 
 
